@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Intro to Programming</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+</head>
+
+<body id="myPage">
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-metro-dark-blue"><i class="fa fa-home w3-margin-right"></i>IntroProg</a>
+  <a href="#office-hours" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Office Hours</a>
+  <a href="#schedule" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Schedule</a>
+  <a href="#overview" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Overview</a>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Slides<i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" target="_blank" class="w3-bar-item w3-button">01-welcome</a>
+    </div>
+  </div>
+  <!-- <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Homework<i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" target="_blank" class="w3-bar-item w3-button">hw01</a>
+    </div>
+  </div> -->
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">In-class<i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" target="_blank" class="w3-bar-item w3-button">ic01</a>
+    </div>
+  </div>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Final Project<i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+       <a href="#" target="_blank" class="w3-bar-item w3-button">project</a>
+    </div>
+  </div>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Links<i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <!-- <a href="#" target="_blank" class="w3-bar-item w3-button">Gradescope</a> -->
+    </div>
+  </div>
+ </div>
+</div>
+
+<!-- Class info Container -->
+<div class="w3-container w3-padding-64 w3-center" id="office-hours">
+<h2 class="w3-left-align">Introduction to Python Programming</h2>
+
+<div class="w3-row">
+
+  <div class="w3-third w3-margin-left">
+    <h4 class="w3-left-align">July 8 - July 19</h4>
+    <h4 class="w3-left-align">Bass 102</h4>
+  </div>
+  <div class="w3-half">
+  </div>
+</div>
+
+<!-- Office Hours Container -->
+<div class="w3-container w3-padding-64 w3-center" id="office-hours">
+<h2 class="w3-left-align">Instructors and Office Hours</h2>
+
+<div class="w3-row">
+
+<div class="w3-half">
+  <img src="img/ab.png" alt="Boss" style="width:45%" class="w3-circle">
+  <h4>Dr. Ab Mosca <span class="w3-opacity">(they/them)</span></h4>
+</div>
+
+<div class="w3-third w3-left-align">
+  <h4>Contact</h4>
+  <p>amosca@smith.edu</p>
+  <!-- <h4>Office Hours</h4>
+  <h5>Wilson Hall 325</h5>
+  <p>Wednesday 09:30 - 11:00</p>
+  <p>Thursday 14:30 - 16:30</p>
+  <p>By appointment</p>
+  <p>You are welcome to come to office hours with questions about course content, data/computer science in general, research, jobs, or just to chat! All of these are perfectly appropriate uses of this time.</p> -->
+</div>
+</div>
+
+<div class="w3-row">
+<div class="w3-half">
+  <img src="img/hodan.png" alt="CA" style="width:45%" class="w3-circle">
+  <h4>Hodan Ali <span class="w3-opacity">(?)</span></h4>
+</div>
+
+<div class="w3-third w3-left-align">
+  <h4>Contact</h4>
+  <p> hali21@smith.edu</p>
+  <!-- <h4>Office Hours</h4>
+  <h5>Wilson Hall 325</h5>
+  <p>Wednesday 09:30 - 11:00</p>
+  <p>Thursday 14:30 - 16:30</p>
+  <p>By appointment</p>
+  <p>You are welcome to come to office hours with questions about course content, data/computer science in general, research, jobs, or just to chat! All of these are perfectly appropriate uses of this time.</p> -->
+</div>
+</div>
+
+
+<!-- Schedule Container-->
+<div class="w3-container w3-padding-24 w3-center" id="schedule">
+<h2 class="w3-left-align">Course Schedule</h2>
+<p class="w3-left-align">(subject to change as needed)</p>
+<!-- <p class="w3-left-align w3-text-red">Assignments are due BEFORE class on the day listed</p> -->
+
+<div class="w3-content" style="width:90%">
+
+</div>
+</div>
+
+<!-- Overview Container -->
+<div class="w3-container w3-padding-24 w3-left-align" id="overview">
+<h2>Course Overview and Policies</h2>
+
+<h3>Description</h3>
+
+<p>Computers are becoming more and more ubiquitious. We use them to communicate, navigate, tell us our steps, and drive our cars (among other things). How do computers "know" how to do all of these tasks? Through programming! Computer programming is the practice of combining logical thinking, problem solving, and a programming language to give computers instructions for the task we want them to perform.</p>
+
+<p>In this course students will learn the basics of programming with a language called Python. The course will emphasize problem solving through a lens of breaking large problems into smaller ones, and solving those with a specific sequence of steps (i.e. an algorithm). Students will learn basics of computer architecture and fundamental programming techniques such as control structures, data structures, and iterators. No previous programming experience is required, students will learn all of the basics in class.</p> 
+
+<h4>Learning Outcomes</h4>
+By the end of this course students will be able to:
+
+<ul> 
+  <li>Use basic programming constructs such as if-then statements, loop control, functions, lists, simple input-output, object-oriented programming (OOP), searching, and recursion.</li>
+  <li>Implement foundational techniques including top-down design, program documentation, modular design; resulting in code that can be readily understood and used by other programmers.</li>
+  <li>Write programs with Python programming language, understanding its syntax, features, libraries, and limitations.</li>
+  <li>Explain the high-level internal operation of a computer, including the central processing unit, simple memory management, and the file system.</li>
+</ul>
+
+<h3>Textbook</h3>
+
+<p>The textbook for this class is <em>Python for Everybody - Interactive</em>. 
+
+<p>It is available for free through Runestone Academy. You will need to make an account to access the book.</p>
+
+<p>Our class and textbook are <a href="https://runestone.academy/ns/books/published/smithcollege_py4e-int_summer24/index.html" target="_blank">here</a></p>
+
+<h3>Assignments</h3>
+
+<p>The best way to learn to program is to program. Most of our classes will consist of some brief lecture, and then actually practicing material through in-class activities.</p>
+
+<h4>Final Projects</h4>
+
+<p>Student will work together to develop applications to show off their programming skills at the end of the course. Students will demo these applications to fellow students and parents.</p>
+
+
+<h3>Classroom Conduct</h3>
+<p>All students and teaching staff are expected to treat each other with kindness and consideration. Equity and inclusivity are priorities in this class, and centering those systematically marginalized in higher ed and STEM will be a priority. If you have any requests or feedback, please reach out to Ab.</p>
+
+<h3>Academic Integrity</h3>
+<p>While students are encouraged to discuss course materials, no plagiarism/copying is allowed. In particular:
+  <ul>
+    <li>You may not copy anyone else's text, source code, images, videos, visualization designs, or slides under any circumstances. This includes online sources.</li>
+    <li>You may not permit any other student to see any part of your program or writing assignment.</li>
+    <li>You may not permit yourself to see any part of another student's program or writing assignment.</li>
+  </ul></p>
+
+<p>You may consult online resources as part of your coursework, but you may not copy code from online sources. If you get an idea of how to solve a problem from an online source, include a citation in a code block at the top of your script. Ex.:</p>
+
+<div class="w3-example">
+<div class="w3-code python notranslate">
+'''<br>
+DS2001<br>
+Practicum 2<br>
+MyName<br>
+Consulted stackoverflow for rounding:  
+https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python 
+<br>
+'''
+</div>
+</div>
+
+<p>ChatGPT may by used as a spelling/grammar checker (with citation), but may not be used to perform the intellectual tasks required to complete an assignment. In other words, your writing and code must be your own, not generated by ChatGPT.</p>
+
+<p>If you have a question about what is considered a violation of this policy, please ask!</p>
+<p>You can find the college's academic integrity policy here: <a href="https://www.smith.edu/about-smith/offices/student-affairs/student-handbook/academic-honor-code-0" target="_blank">https://www.smith.edu/about-smith/offices/student-affairs/student-handbook/academic-honor-code-0</a>.</p> 
+
+<h3>Students with Disabilities</h3>
+<p>Students with disabilities who wish to receive academic services and/or accommodations should contact <a href="https://www.smith.edu/your-campus/offices-services/disability-services" target="_blank">Disability Services</a>. If you have already done so, please provide your letter for accommodations to Ab early in the semester so they can arrange those accommodations.</p>
+
+<h3>A note to all students</h3>
+<p>I (Ab) am here to support you. If at any point in the semester you realize there is something I could do to better support you, please reach out. This can be something as small as letting me know I am not making the font big enough on my presentations, to sharing that you need some help getting caught up after a hard day or week.</p>
+<p>Please be respectful of your classmates and instructor's wellbeing. <b class="w3-text-red">You should not come to class if you are not feeling well.</b> This includes COVID symptoms, and symptoms of non-COVID illnesses. If you need to miss class, I will work with you to stay caught up.</p> 
+
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-metro-dark-blue w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+
+<script type="text/javascript" src="https://d3js.org/d3.v7.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
